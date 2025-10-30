@@ -15,7 +15,7 @@ source venv/bin/activate          # Linux / macOS
 pip install -r requirements.txt
 
 # 4. Start
-uvicorn backend.calendly_integration:app --reload
+uvicorn backend.api.calendly_integration:app --reload
 
 
 * Check availability  
